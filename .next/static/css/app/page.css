@@ -1,0 +1,56 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./components/LoginView/index.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.LoginView_main__q3mus {
+  min-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./components/LoginView/LoginCard/index.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.LoginCard_main__oXjaC button {
+  min-width: 250px;
+  background: #4285f4;
+  font-size: 2rem;
+  padding: 0.4rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(162, 162, 162);
+}
+.LoginCard_main__oXjaC button div {
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  background: white;
+  border-radius: 0.5rem;
+}
+.LoginCard_main__oXjaC button div svg {
+  object-fit: cover;
+  font-size: 2.8rem;
+}
+.LoginCard_main__oXjaC button P {
+  padding: 0.5rem;
+}
+.LoginCard_main__oXjaC button:active {
+  background: #2a75f3;
+  box-shadow: 0.5rem 0.5rem 0.9rem rgb(162, 162, 162);
+}
+.LoginCard_main__oXjaC button:disabled {
+  opacity: 0.5;
+}

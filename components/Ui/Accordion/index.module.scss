@@ -1,0 +1,42 @@
+@import "/app/style/module/mixins";
+.accordion {
+  width: fit-content;
+  height: fit-content;
+  margin: 0.8rem 0;
+  border: 0.1rem solid;
+  border-radius: 1rem;
+  overflow: hidden;
+  .header {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    .accordionIcon {
+      height: fit-content;
+      svg {
+        transition: transform 0.2s ease-in;
+      }
+    }
+    .accordionOpen {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+    &:hover {
+      background: #b6b2b248;
+    }
+    cursor: pointer;
+  }
+  .contentBox {
+    transform: scaleY(0);
+    height: 0;
+  }
+  .content {
+    padding: 1rem;
+  }
+  .isActive {
+    height: fit-content;
+    transform: scaleY(1) !important;
+  }
+}

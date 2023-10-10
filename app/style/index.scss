@@ -1,0 +1,33 @@
+@use "./module/mixins";
+@use "./module/typography";
+@use "./module/variables";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 12px;
+}
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: rgb(22, 27, 34);
+  color: white;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,33 @@
+@import "/app/style/module/mixins";
+
+.sider {
+  min-width: 25rem;
+  min-height: 100vh;
+  height: 100%;
+  padding: $space-xs;
+  width: fit-content;
+  background: $darkblue_1;
+  .list {
+    list-style: none;
+    li {
+      font-size: $text-lg;
+      position: relative;
+      margin: 1rem 0;
+      border-bottom: 0.05rem solid;
+      padding-bottom: 1rem;
+      &:last-child {
+        border: none;
+      }
+      &:hover {
+        background: rgba(52, 52, 52, 0.73);
+        color: $google_blue;
+      }
+      svg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(-90deg);
+        right: 1%;
+      }
+    }
+  }
+}

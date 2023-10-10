@@ -1,0 +1,13 @@
+@import "/app/style/module/mixins";
+.button {
+  margin: 0 auto;
+  margin-top: 1rem;
+  min-width: auto;
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  border: 0.5rem;
+  background: $darkblue_1;
+  font-size: $text-xs !important;
+  color: white;
+  cursor: pointer;
+}

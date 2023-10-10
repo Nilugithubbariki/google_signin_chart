@@ -1,0 +1,40 @@
+@import "./variables";
+
+// mixins for breakpoints
+
+// 450px
+@mixin xs-mobile {
+  @media screen and (max-width: #{$xs}) {
+    @content;
+  }
+}
+// 575px
+@mixin mobile {
+  @media screen and (max-width: #{$sm}) {
+    @content;
+  }
+}
+// 767px
+@mixin min-tablet {
+  @media screen and (max-width: #{$md}) {
+    @content;
+  }
+}
+//991px
+@mixin tablet {
+  @media screen and (max-width: #{$lg}) {
+    @content;
+  }
+}
+//1199px
+@mixin desktop {
+  @media screen and (max-width: #{$xl}) {
+    @content;
+  }
+}
+//1599px
+@mixin large-desktop {
+  @media screen and (max-width: #{$xxl}) {
+    @content;
+  }
+}
