@@ -18,13 +18,13 @@ const Nav = () => {
     <ul className={Style.list}>
       <li>
         <Link href={"/dashboard/linechart"}>
-          <p>Line Chart</p>
+          <p>Line chart</p>
           <FcExpand />
         </Link>
       </li>
       <li>
         <Link href={"/dashboard/barchart"}>
-          <p>Bar Chart</p>
+          <p>Bar chart</p>
           <FcExpand />
         </Link>
       </li>
