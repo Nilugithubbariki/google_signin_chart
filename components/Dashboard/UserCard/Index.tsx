@@ -9,7 +9,7 @@ import { signOut, useSession } from "next-auth/react";
 import { clearUser } from "@/slices/user";
 
 const UserCard = () => {
-  const session = useSession(); // A hook from next-auth to track login session
+  const session = useSession();
   const dispatch = useAppDispatch();
   const router = useRouter(); // A hook for routing
   const user = useAppSelector((state) => state.user.user); // Get values from user redux state
